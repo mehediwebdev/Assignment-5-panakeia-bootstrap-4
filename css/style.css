@@ -1,0 +1,367 @@
+body{
+	overflow-x:hidden;
+} 
+ nav{
+	 
+ }
+
+nav ul li a{
+   margin:0px 1px;
+}
+nav ul li a:hover{
+   background-color:red;
+   border-radius:20px;
+}
+/*Baner Area CSS Start here*/
+.baner-area{
+	background-image: url(../images/baner.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+    margin-top:90px;
+	
+}
+.baner-area .overlay{
+	background-color: rgba(0,0,0,0.4);
+	padding-top:250px;
+}
+.baner-area .baner-heading{
+	margin:60px 50px;
+}
+.baner-area .baner-heading h1{
+	color:#fff;
+	font-size:60px;
+}
+.baner-area .baner-heading h6{
+	color:#fff;
+	font-size:20px;
+}
+.baner-area .single-item-info h3{
+	 color:#fff;
+	 font-size:30px;
+	 margin:20px 0px;
+}
+.baner-area .single-item-info p{
+	 color:#fff;
+	 font-size:15px;
+	 padding-bottom:25px;
+}
+.baner-area .baner-item-image{
+	
+}
+.baner-area .baner-read-more{
+	padding-bottom:80px;
+}
+.baner-area .baner-read-more input[type="button"]{
+	width:150px;
+	padding:8px 5px;
+	border-radius:20px;
+	border:none;
+	color:#B8A4A0;
+	cursor:pointer;
+}
+.overlay{
+	
+}
+/*Baner Area CSS End Here*/
+/*Our News CSS Start Here*/
+.our-news-area{
+	padding:50px 0px;
+	background-color:#EDEFF1;
+}
+.our-news-area .our-news-heading h2{
+	margin-bottom:50px;
+	font-size:30px;
+	
+}
+.our-news-area .news-content{ 
+  margin:30px 0px;
+
+}
+
+ .our-news-area .news-image img{
+	width:100%;
+	padding:0px 5px;
+}
+.our-news-area .news-content h3{ 
+    font-size:24px;
+
+}
+.our-news-area .news-content p{ 
+     font-size:15px;
+}
+.our-news-area .news-read-more{ 
+    padding:10px 0px;
+}
+.our-news-area .news-read-more input[type="button"]{ 
+    width:140px;
+	padding:8px 5px;
+	border-radius:20px;
+	border:none;
+	background-color:#FFFFFF;
+	cursor:pointer;
+}
+/*Our News CSS End Here*/
+/*Newsletter Area CSS Start here*/
+ .newsletter-area{
+	 background-image: url(../images/newsletter.png);
+	 background-size:cover;
+	 background-position:center;
+	 
+	 
+ }
+ .newsletter-area .overlay{
+	 background-color:rgba(0,0,0,0.5);
+	 padding:50px 30px;
+ }
+
+ .newsletter-details .newsletter-content h2{ 
+    color:#fff;
+	font-size:30px;
+ }
+ .newsletter-details .newsletter-content p{ 
+    color:#fff;
+	font-size:15px;
+ }
+ .newsletter-area .newsletter-signup{
+	 margin:40px 0px;;
+ }
+
+   
+ .newsletter-area .newsletter-signup input[type="email"]{
+	  width:250px;
+	  padding:8px 5px;
+	  border:none;
+	  border-radius:20px;
+	  border:1px solid #fff;
+	  background:transparent;
+	  color:#fff;
+	 
+ }
+ .newsletter-area .newsletter-signup input[type="submit"]{ 
+     width:180px;
+	  padding:8px 5px;
+	  border:none;
+	  border-radius:20px;
+	  border:1px solid #fff;
+	  background:#fff;
+	  margin-left: -70px;
+	  cursor:pointer;
+ }
+ 
+/*Newsletter Area CSS End here*/
+/*Signup area css start here*/
+.signup-area{
+	padding-top:40px;
+}
+.signup-area .signup-content{ 
+       margin:20px 0px;
+}
+.signup-area .signup-image{ 
+     margin:20px 0px;
+}
+.signup-area .signup-image img{ 
+   width:100%;
+   height:auto;
+}
+.signup-area .signup-content h2{
+	font-size:30px;
+}
+.signup-area .signup-content p{ 
+    font-size:15px;
+}
+.signup-area .signup-btn-one input[type="submit"]{
+	width:140px;
+	padding:8px 5px;
+	color:#fff;
+	border:none;
+	border-radius:20px;
+	background-color:#DD4B2B;
+	cursor:pointer;
+	
+}
+.signup-area .signup-btn-two input[type="submit"]{
+	width:140px;
+	padding:8px 5px;
+	color:#fff;
+	border:none;
+	border-radius:20px;
+	background-color:#4B4E73;
+	cursor:pointer;
+	
+}
+.signup-area .signup-lower {}
+/*Signup area css end here*/
+/*List Area CSS START Here*/
+  .list-area{
+	  background-color:#D75D0E;
+      padding:50px 5px;	
+      margin-top:30px;	  
+	  
+  }
+ .list-area .list-area-item{ 
+    margin:5px 0px;
+ }
+  .list-area .list-area-item ul{ 
+      list-style:none;
+  }
+  .list-area .list-area-item ul li{ 
+       color:#fff;
+	   font-size:18px;
+	   line-height:30px;
+  }
+  
+/*List Area CSS End Here*/
+/*Footer css start here*/
+footer{
+	background-image: url(../images/footer.png);
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	content:'';
+}
+footer .footer-text p{ 
+      color:#fff;
+	  font-size:18px;
+}
+ footer .overlay{
+	 background-color: rgba(0,0,0,0.5);
+	 padding:45px 0px 150px 0px;
+ }
+/*Footer css end here*/
+/*Scroll Top Icon*/
+.top .fas{
+	position:absolute;
+	content:'';
+	margin-bottom:0px;
+	margin-right:0px;
+	font-size:50px;
+}
+
+/*Media Query CSS Start Here*/
+@media (min-width:280px) and (max-width:575.9px){ 
+    nav ul li a{
+		width:150px;
+		text-align:center;
+	}
+	
+	.baner-area .overlay{
+	padding-top:0px;
+    }
+	.baner-area .baner-heading{
+	margin:20px 50px;
+    }
+   .baner-area .baner-heading h1{ 
+       font-size:25px;
+   }
+   .baner-area .baner-heading h6{ 
+       font-size:12px;
+   }
+
+   .baner-area .single-item-info h3{ 
+       font-size:25px;
+   }
+   .baner-area .single-item-info p{ 
+       font-size:15px;
+   }
+   
+   .our-news-area .news-content p{ 
+     font-size:12px;
+   }
+   .newsletter-details .newsletter-content p{ 
+	font-size:10px;
+ }
+   .newsletter-area .newsletter-signup input[type="email"]{
+	  width:160px;
+	  padding:8px 3px;
+	  border:none;
+	  border-radius:20px;
+	  border:1px solid #fff;
+	  background:transparent;
+	 
+ }
+ .newsletter-area .newsletter-signup input[type="submit"]{ 
+     width:90px;
+	  padding:8px 3px;
+	  border:none;
+	  border-radius:20px;
+	  border:1px solid #fff;
+	  background:#fff;
+	  margin-left: -70px;
+ }
+ .signup-area .signup-content h2{
+	font-size:25px;
+    }
+.signup-area .signup-content p{ 
+    font-size:10px;
+  }
+	
+
+.signup-area .signup-btn-one input[type="submit"]{
+	width:100%;
+}
+.signup-area .signup-btn-two input[type="submit"]{
+	width:100%;
+}
+
+   footer .footer-text p{ 
+	  font-size:12px;
+	  text-align:center;
+    }
+
+
+}
+
+@media (min-width:576px) and (max-width:767.9px){ 
+   nav ul li a{
+	   font-size:10px;
+   }
+   .baner-area .baner-heading h1{ 
+       font-size:25px;
+   }
+   .baner-area .single-item-info h3{
+	 font-size:20px;
+    }
+   .baner-area .single-item-info p{
+	 font-size:12px;
+    }
+   .our-news-area .news-content h3{ 
+     font-size:25px;
+   }
+   .our-news-area .news-content p{ 
+     font-size:14px;
+   }
+     .newsletter-details .newsletter-content p{ 
+	font-size:13px;
+   }
+   .signup-area .signup-content h2{
+	font-size:20px;
+    }
+   .signup-area .signup-content p{ 
+    font-size:10px;
+   }
+   .list-area .list-area-item ul li{ 
+       color:#fff;
+	   font-size:15px;
+	   line-height:25px;
+   }
+	
+   footer .footer-text p{ 
+	  font-size:13px;
+	  text-align:center;
+    }
+
+}
+
+
+@media (min-width:768px) and (max-width:991.9px){ 
+   .baner-area .baner-heading h1{ 
+       font-size:50px;
+   }
+   .baner-area .baner-heading{ 
+   
+   }
+}
+@media (min-width:) and (max-width:){}
+@media (min-width:) and (max-width:){}
+@media (min-width:) and (max-width:){}
